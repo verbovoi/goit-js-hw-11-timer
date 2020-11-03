@@ -1,0 +1,25 @@
+body{
+    background-color: mediumturquoise;
+    margin: 50px;
+
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3em;
+
+    background-color: oldlace;
+}
+
+.field :last-child{
+    margin-right: 50px;
+}
+
+.value{
+    font-size: 40px;
+    color: orangered;
+}
